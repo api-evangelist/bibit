@@ -1,0 +1,4 @@
+Contact: mailto:bugs@bibit.id
+Expires: 2026-12-31T23:59:00Z
+Hiring: https://careers.stockbit.com/jobs
+Preferred-Languages: en, id

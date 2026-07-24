@@ -1,0 +1,21 @@
+# Bibit
+
+> Bibit is an Indonesian retail investment application that lets users invest in mutual funds (reksa dana), government bonds (SBN/SBR/ORI), fixed-rate bonds, and stocks. It targets beginner investors with robo-advisor recommendations and is licensed by Indonesia's financial regulator OJK. Bibit is operated within the Stockbit group and is a portfolio company of Prosus Ventures. No public developer API or developer portal is published as of this writing.
+
+## Company
+- Website: https://bibit.id
+- Blog: https://blog.bibit.id
+- Help Center / FAQ: https://faq.bibit.id/id/
+- Careers: https://careers.stockbit.com/
+
+## Legal
+- Privacy Policy: https://bibit.id/privacy
+- Terms & Conditions: https://bibit.id/term
+
+## Security
+- security.txt: https://bibit.id/.well-known/security.txt
+- Security contact: mailto:bugs@bibit.id
+
+## Notes
+- No public REST/GraphQL API, OpenAPI specification, SDK, or developer documentation is currently published by Bibit.
+- Regulatory: Licensed by OJK (KEP-14/PM.21/2017); registered DJAI.PSE (000481.02/DJAI.PSE/04/2021).

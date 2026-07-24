@@ -1,8 +1,12 @@
 aid: bibit
 name: Bibit
-description: 'Bibit is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Bibit is an Indonesian retail investment application that lets everyday users invest in mutual
+  funds (reksa dana), government bonds (SBN/SBR/ORI), fixed-rate bonds, and stocks. Built for beginner
+  investors, it uses robo-advisor technology to recommend diversified portfolios and is licensed by
+  Indonesia''s financial regulator OJK. Bibit operates within the Stockbit group and is a portfolio company
+  of Prosus Ventures. As of this profile no public developer API, SDK, or developer portal is published;
+  this repo tracks the company''s public surface (security.txt, legal, help, blog) for the API Evangelist
+  network.'
 url: https://raw.githubusercontent.com/api-evangelist/bibit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +14,60 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Investment
+- Mutual Funds
+- Wealth Management
+- Indonesia
+- Consumer Finance
 apis: []
+image: https://assets.bibit.id/logos/thumbnail-bibit.jpg
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/bibit-vulnerability-disclosure.yml
+- type: Security
+  url: https://bibit.id/.well-known/security.txt
+- type: DomainSecurity
+  url: security/bibit-domain-security.yml
+- type: WellKnown
+  url: well-known/bibit-well-known.yml
+- type: SecurityTxt
+  url: well-known/bibit-security.txt
+- type: LLMsTxt
+  url: llms/bibit-llms.txt
 - type: Website
   url: https://bibit.id
+- type: Blog
+  url: https://blog.bibit.id
+- type: Support
+  url: https://faq.bibit.id/id/
+- type: PrivacyPolicy
+  url: https://bibit.id/privacy
+- type: TermsOfService
+  url: https://bibit.id/term
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
