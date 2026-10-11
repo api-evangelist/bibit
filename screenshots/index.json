@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "bibit",
+    "captured_at": "2026-10-11T182925",
+    "source_url": "https://bibit.id",
+    "source_type": "Website",
+    "file": "bibit-2026-10-11T182925.png",
+    "bytes": 80631,
+    "capture": "playwright-local"
+  }
+]
